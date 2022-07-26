@@ -406,7 +406,7 @@
 	
 	display: flex;
 	align-items: center;
-	width: 70%;
+	width: 80%;
 	justify-content: space-between;
 }
 .skills .coloumn-right .line
@@ -427,25 +427,45 @@
 	top: 0;
 	background: crimson;
 }
-.skills .coloumn-right .html::before
+.skills .coloumn-right .y13::before
 {
-	width: 90%;
+	width: 51%;
 }
-.skills .coloumn-right .js::before
-{
-	width: 70%;
-}
-.skills .coloumn-right .msql::before
-{
-	width: 50%;
-}
-.skills .coloumn-right .py::before
-{
-	width: 60%;
-}
-.skills .coloumn-right .l::before
+.skills .coloumn-right .y14::before
 {
 	width: 80%;
+}
+.skills .coloumn-right .y15::before
+{
+	width: 80%;
+}
+.skills .coloumn-right .y16::before
+{
+	width: 54%;
+}
+.skills .coloumn-right .y17::before
+{
+	width: 65%;
+}
+.skills .coloumn-right .y18::before
+{
+	width: 79%;
+}
+.skills .coloumn-right .y19::before
+{
+	width: 88%;
+}
+.skills .coloumn-right .y20::before
+{
+	width: 82%;
+}
+.skills .coloumn-right .y21::before
+{
+	width: 100%;
+}
+.skills .coloumn-right .y22::before
+{
+	width: 87%;
 }
 .teams
 {
