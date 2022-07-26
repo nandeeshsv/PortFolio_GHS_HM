@@ -826,6 +826,49 @@ transition: transform .2s ease;
 	font-weight: 600;
 	margin-bottom: 10px;
 }
+.textc
+{
+	font-size: 100px;
+	font-weight: 600;
+	color: gold;
+	font-family: sans-serif;
+}
+.cp
+{
+	text-align: justify;
+	color: white;
+
+	font-family: fantasy;
+	
+}
+
+.cdp{
+	
+	display: inline-block;
+
+	
+	height: 360px;
+	width: 360px;
+	
+	
+	background: transparent;
+	margin: auto;
+	border-radius: 30px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+	cursor: pointer;
+	object-fit: cover;
+	transition: transform .2s ease;
+}
+.cdp .cdpimg
+{
+	
+	
+	object-fit: cover;
+	overflow: hidden;
+}
+
 .contact .contact-content .textc p{
 	text-align: justify;
 }
@@ -849,7 +892,7 @@ transition: transform .2s ease;
 .col
 {
 	width: auto;
-	transform: translate(113%,-90%);
+	transform: translate(113%,-150%);
 }
 
 .contact form .feild
@@ -885,13 +928,22 @@ transition: transform .2s ease;
 .hirec{
 	display: inline-block;
 	background: black;
-	color: #fff;
+	
 	font-size: 30px;
 	transition: 0.4s ease;
 	border-radius: 6px;
 	border: 2px solid black;
 }
 .hirec:hover{
+	color: black;
+	background: transparent;
+}
+.none
+{ color: white;
+	background: black;
+
+}
+.none:hover{
 	color: black;
 	background: transparent;
 }
