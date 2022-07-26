@@ -248,6 +248,7 @@
 	font-family: Ubuntu,sans-serif;
 	font-size: 30px;
 	text-align: center;
+
 	
 }
 .para
@@ -256,7 +257,8 @@
 	text-align: center;
 	font-size: 20px;
 	font-weight: 400;
-	color: crimson;
+	text-align: justify;
+	color: #222;
 }
 .service
 {
@@ -277,7 +279,10 @@
 }
 .service .para1
 {
-	font-size: 30px;
+	font-size: 25px;
+	font-weight: 500;
+	text-align: center;
+
 }
 .card{
 	
@@ -360,11 +365,21 @@
 .pskills
 {
 	display: block;
-	width: 100%;
-	text-align: center;
-	color: black;
+	transform: translate(-10%,-1%);
+	text-align: left;
+	color: brown;
 	font-size: 20px;
+	font-family: poppins,fantasy;
 
+
+}
+.pskills span
+{
+	color:red;
+
+	font-size: 20px;
+	font-weight: 900;
+	font-family: sans-serif;
 }
 .skills .coloumn-right
 {
@@ -373,6 +388,14 @@
 	width: 100%;
 
 }
+.dp
+{
+	overflow: hidden;
+	object-fit: cover;
+	width: auto;
+	
+}
+
 .skills .coloumn-right .bars 
 {
 	margin-bottom: 20px;
@@ -406,11 +429,11 @@
 }
 .skills .coloumn-right .html::before
 {
-	width: 30%;
+	width: 90%;
 }
 .skills .coloumn-right .js::before
 {
-	width: 40%;
+	width: 70%;
 }
 .skills .coloumn-right .msql::before
 {
@@ -418,13 +441,19 @@
 }
 .skills .coloumn-right .py::before
 {
-	width: 70%;
+	width: 60%;
+}
+.skills .coloumn-right .l::before
+{
+	width: 80%;
 }
 .teams
 {
 	background: black;
 	width: 100%;
 	height: 110%;
+	margin-bottom: 10px black;
+
 }
 .teams .title
 {
@@ -559,6 +588,212 @@ transition: transform .2s ease;
 	transform: scale(0.9);
   }
 }
+
+
+.slide
+{
+	z-index: 999;
+	background: black;
+	width: 100%;
+	height: 100%;
+
+}
+.slide .titles
+{
+	font-size: 60px;
+	text-align: center;
+	font-family: Ubuntu,sans-serif;
+	font-weight: 600;
+	
+	color: #fff;
+}
+.slideframe
+{
+	overflow: hidden;
+	height: 600px; 
+	width: 600px;
+	margin-left: 360px;
+	 margin-top: 20px;
+
+}
+.imagediv{
+	width: 200%;
+	height: 550px;
+}
+.slide .container
+{
+	
+	height: 700px;
+    width: 887px;
+	position: relative;
+	/* width: 100%; */
+	
+	
+
+	
+	
+    
+	
+	left: 50%;
+	
+	transform: translate(-50%,0%);
+	border: 10px solid crimson;
+	border-radius: 8px;
+	box-shadow: 10px 25px 28px rgba(0, 0, 0.3);
+	overflow: hidden;
+	
+}
+.slide .container .img-container
+{
+	width: 100%;
+    display: flex;
+	animation: slide 70s infinite;
+}
+
+.slide .container .img-container 
+{
+	width: 100%;
+}
+
+@keyframes slide
+{
+	0%{
+		transform: translateX(0%);
+	}
+	3%{
+		transform: translateX(-100%);
+	}
+	6%{
+		transform: translateX(-200%);
+	}
+	9%{
+		transform: translateX(-300%);
+	}
+	12%{
+		transform: translateX(-400%);
+	}
+	15%{
+		transform: translateX(-500%);
+	}
+	20%{
+		transform: translateX(-600%);
+	}
+	23%{
+		transform: translateX(-700%);
+	}
+	25%{
+		transform: translateX(-800%);
+	}
+	28%{
+		transform: translateX(-900%);
+	}
+	31%{
+		transform: translateX(-1000%);
+	}
+	34%{
+		transform: translateX(-1200%);
+	}
+	37%{
+		transform: translateX(-1300%);
+	}
+	41%{
+		transform: translateX(-1400%);
+	}
+	44%{
+		transform: translateX(-1500%);
+	}
+	47%{
+		transform: translateX(-1600%);
+	}
+	51%{
+		transform: translateX(-1800%);
+	}
+	54%{
+		transform: translateX(-2000%);
+	}
+	57%{
+		transform: translateX(-2100%);
+	}
+	61%{
+		transform: translateX(-2200%);
+	}
+	64%{
+		transform: translateX(-2300%);
+	}
+	67%{
+		transform: translateX(-2400%);
+	}
+	71%{
+		transform: translateX(-2500%);
+	}
+	74%{
+		transform: translateX(-2600%);
+	}
+	77%{
+		transform: translateX(-2700%);
+	}
+	81%{
+		transform: translateX(-2800%);
+	}
+	82%{
+		transform: translateX(-2900%);
+	}
+	85%{
+		transform: translateX(-3000%);
+	}
+	88%{
+		transform: translateX(-3100%);
+	}
+	90%{
+		transform: translateX(-3200%);
+	}
+	92%{
+		transform: translateX(-3300%);
+	}
+	94%{
+		transform: translateX(-3400%);
+	}
+	96%{
+		transform: translateX(-3500%);
+	}
+	98%{
+		transform: translateX(-3600%);
+	}
+	100%{
+		transform: translateX(-3700%);
+	}
+	
+
+
+}
+@media(max-width :700px)
+{
+
+
+    .slide
+    {
+       background: black;
+    }
+	.slide .container
+	{
+		display: none;
+		border: 10px  black;
+	border-radius: 8px;
+	box-shadow: 10px 25px 28px rgba(0, 0, 0.3);
+
+
+	}
+	.slide .titles
+{
+	
+	text-align: center;
+	font-family: Ubuntu,sans-serif;
+	font-weight: 600;
+	margin-bottom: 10px;
+	color: black;
+}
+
+}
 .contact
 {
 	background: crimson;
@@ -613,214 +848,71 @@ transition: transform .2s ease;
 }
 .col
 {
-	transform: translate(113%,-100%);
+	width: auto;
+	transform: translate(113%,-90%);
 }
-.slideframe
-{
-	overflow: hidden;
-	height: 600px; 
-	width: 600px;
-	margin-left: 360px;
-	 margin-top: 20px;
 
-}
 .contact form .feild
 {
-  display: inline-block;
+  display: block;
+  
+  width: 100%;
 }
-
-.slide
+.contact form .feild input
 {
+	display: block;
+	height: 30%;
+	width: 60%;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	outline: none;
+	padding: 0 15px;
+	font-size: 17px;
+	font-family: poppins,sans-serif;
+}
+.feild textarea
+{
+	display: block;
+	height: 30%;
+	width: 90%;
+	border: 1px solid lightgrey;
+	border-radius: 2px;
+	outline: none;
+	padding: 0 15px;
+	font-size: 17px;
+	font-family: poppins,sans-serif;
+}
+.hirec{
+	display: inline-block;
 	background: black;
+	color: #fff;
+	font-size: 30px;
+	transition: 0.4s ease;
+	border-radius: 6px;
+	border: 2px solid black;
+}
+.hirec:hover{
+	color: black;
+	background: transparent;
+}
+footer
+{
+	background: #fff;
+	color: black;
 	width: 100%;
 	height: 200%;
+	text-align: right;
+	text-align: justify;
+	letter-spacing: 2px;
+	justify-content: space-between;
 }
-.slide .titles
+
+footer span a
 {
-	font-size: 60px;
-	text-align: center;
+	color: red;
+	font-weight: 500;
 	font-family: Ubuntu,sans-serif;
-	font-weight: 600;
-	margin-bottom: 10px;
-	color: #fff;
 }
-.imagediv{
-	width: 100%;
-	height: 200px;
-}
-.slide .container
-{
-	
-	
-	position: relative;
-	width: 100%;
-	margin-top: 40px;
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-bottom: 0px;
-	
-
-	padding: 0px 10px 0px 10px;
-
-	max-width: none;
-	object-fit: none;
-    object-position: right;
-    
-	
-	left: 50%;
-	
-	transform: translate(-50%,0%);
-	border: 10px solid crimson;
-	border-radius: 8px;
-	box-shadow: 10px 25px 28px rgba(0, 0, 0.3);
-	overflow: hidden;
-	
-}
-.slide .container .img-container
-{
-	width: 100%;
-	
-
-	display: flex;
-	animation: slide 70s infinite;
-}
-
-.slide .container .img-container 
-{
-	width: 100%;
-}
-
-@keyframes slide
-{
-	0%{
-		transform: translateX(0%);
-	}
-	3%{
-		transform: translateX(0%);
-	}
-	6%{
-		transform: translateX(-100%);
-	}
-	9%{
-		transform: translateX(-100%);
-	}
-	12%{
-		transform: translateX(-200%);
-	}
-	15%{
-		transform: translateX(-200%);
-	}
-	20%{
-		transform: translateX(-300%);
-	}
-	23%{
-		transform: translateX(-300%);
-	}
-	25%{
-		transform: translateX(-400%);
-	}
-	28%{
-		transform: translateX(-400%);
-	}
-	31%{
-		transform: translateX(-500%);
-	}
-	33%{
-		transform: translateX(-500%);
-	}
-	38%{
-		transform: translateX(-600%);
-	}
-	41%{
-		transform: translateX(-600%);
-	}
-	44%{
-		transform: translateX(-700%);
-	}
-	47%{
-		transform: translateX(-700%);
-	}
-	51%{
-		transform: translateX(-800%);
-	}
-	54%{
-		transform: translateX(-800%);
-	}
-	57%{
-		transform: translateX(-900%);
-	}
-	61%{
-		transform: translateX(-900%);
-	}
-	64%{
-		transform: translateX(-1000%);
-	}
-	67%{
-		transform: translateX(-1000%);
-	}
-	71%{
-		transform: translateX(-1200%);
-	}
-	74%{
-		transform: translateX(-1200%);
-	}
-	77%{
-		transform: translateX(-1300%);
-	}
-	81%{
-		transform: translateX(-1300%);
-	}
-	84%{
-		transform: translateX(-1400%);
-	}
-	87%{
-		transform: translateX(-1400%);
-	}
-	91%{
-		transform: translateX(-1500%);
-	}
-	94%{
-		transform: translateX(-1500%);
-	}
-	97%{
-		transform: translateX(-1500%);
-	}
-	100%{
-		transform: translateX(-1500%);
-	}
-
-
-}
-@media(max-width :700px)
-{
-
-
-    .slide
-    {
-       background: black;
-    }
-	.slide .container
-	{
-		display: none;
-		border: 10px  black;
-	border-radius: 8px;
-	box-shadow: 10px 25px 28px rgba(0, 0, 0.3);
-
-
-	}
-	.slide .titles
-{
-	
-	text-align: center;
-	font-family: Ubuntu,sans-serif;
-	font-weight: 600;
-	margin-bottom: 10px;
-	color: black;
-}
-
-}
-
-
 
 
 
