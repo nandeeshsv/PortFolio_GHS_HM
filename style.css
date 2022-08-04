@@ -647,15 +647,7 @@ transition: transform .2s ease;
     width: 887px;
 	position: relative;
 	/* width: 100%; */
-	
-	
-
-	
-	
-    
-	
 	left: 50%;
-	
 	transform: translate(-50%,0%);
 	border: 10px solid crimson;
 	border-radius: 8px;
@@ -667,7 +659,7 @@ transition: transform .2s ease;
 {
 	width: 100%;
     display: flex;
-	animation: slide 70s infinite;
+	animation: slide 110s infinite;
 }
 
 .slide .container .img-container 
@@ -680,8 +672,12 @@ transition: transform .2s ease;
 	0%{
 		transform: translateX(0%);
 	}
+	2%{
+		transform: translateX(0%);
+	}
+
 	3%{
-		transform: translateX(-100%);
+		transform: translateX(-40%);
 	}
 	6%{
 		transform: translateX(-200%);
@@ -776,11 +772,22 @@ transition: transform .2s ease;
 	96%{
 		transform: translateX(-3500%);
 	}
+
 	98%{
 		transform: translateX(-3600%);
 	}
+	
 	100%{
 		transform: translateX(-3700%);
+	}
+	102%{
+		transform: translateX(-3800%);
+	}
+	104%{
+		transform: translateX(-3900%);
+	}
+	106%{
+		transform: translateX(-4000%);
 	}
 	
 
@@ -885,7 +892,10 @@ transition: transform .2s ease;
 {
 	
 	
-	object-fit: cover;
+	object-fit: contain;
+
+	transform: translateX(600%,-500%);
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -912,7 +922,7 @@ transition: transform .2s ease;
 .col
 {
 	width: auto;
-	transform: translate(113%,-150%);
+	transform: translate(113%);
 }
 
 .contact form .feild
