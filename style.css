@@ -1012,7 +1012,45 @@ footer span a
 	font-weight: 600;
 	font-family: Ubuntu,sans-serif;
 }
+.gallery .card{
+	
+	display: inline-block;
 
+	
+	height: 453px;
+	width: 353px;
+	
+	border-radius: 30px;
+	background: #222;
+	margin: auto;
+	border-image: inherit;
+	overflow: hidden;
+
+
+	text-align: center;
+	cursor: pointer;
+	transition: color 0.3s ease;
+}
+.gallery .card:hover
+{
+	background: url(images/db.jpg);
+}
+
+
+.gallery .dpd
+{
+
+
+	height: 100%;
+	 width: 100%;
+	 object-fit: contain;
+	
+	 justify-items: center;
+	 align-items: center;
+
+	 object-position: center;
+}
+ 
 
 
 
