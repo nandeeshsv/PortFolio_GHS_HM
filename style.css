@@ -995,6 +995,24 @@ footer span a
 	font-weight: 500;
 	font-family: Ubuntu,sans-serif;
 }
+.gallery{
+	background: white;
+}
+.gallery .max-width
+{
+	background: #222;
+	width: 100%;
+}
+
+
+.gallery .titled
+{
+	color: #fff;
+	font-size: 70px;
+	font-weight: 600;
+	font-family: Ubuntu,sans-serif;
+}
+
 
 
 
