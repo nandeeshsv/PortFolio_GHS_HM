@@ -1050,8 +1050,26 @@ footer span a
 
 	 object-position: center;
 }
- 
-
+ .view
+ {
+ 	background: black;
+ 	width: 100%;
+ 	display: inline-flex;
+ }
+ .view .max-widthV
+ {
+ 	background: black;
+ 	display: flex;
+ 	object-fit: cover;
+ }
+ .view img
+ {
+ 	object-fit: cover;
+ }
+ .view .max-widthV .dpd
+{
+	object-fit: cover;
+}
 
 
 
