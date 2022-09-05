@@ -1095,10 +1095,10 @@ footer span a
 	background: black;
 }
 
-.desktop{
+/*.desktop{
 	max-width: 100%;
 	overflow-x: hidden;
-}
+}*/
 
 @media(max-width: 500px)
 {
@@ -1107,7 +1107,7 @@ footer span a
 		height: 100%;
 	}*/
 
-	/*.home
+	.home
 	{
 		display: none;
 
@@ -1160,7 +1160,7 @@ footer span a
 	
 	text-align: center;
 
-}*/
+}
 	
 }
 
