@@ -142,7 +142,7 @@
 		
 	}
 }
-@media(max-width: 650px)
+@media(max-width: 750px)
 {
 	.max-width .text-2{
 	padding: 0 50px;
@@ -154,6 +154,10 @@
 	display: list-item;
 
     } 
+    .home
+    {
+    	background: black;
+    }
 }
 @media(max-width: 591px)
 {
@@ -603,6 +607,8 @@ transition: transform .2s ease;
 @media(max-width: 1082px)
 {
 	.card1{
+		 max-width: 100%;
+	overflow-x: hidden;
 		display: block;
 		height: 260px;
 		width: 260px;
@@ -807,19 +813,29 @@ transition: transform .2s ease;
 
 
 }
-@media(max-width :700px)
+
+
+@media(max-width: 874px)
 {
 
+    
+   
 
     .slide
     {
+    	 max-width: 100%;
+	overflow-x: hidden;
        background: black;
+       
+
     }
 	.slide .container
 	{
-		display: none;
+		
 		border: 10px  black;
 	border-radius: 8px;
+	max-width: 100%;
+	overflow-x: hidden;
 	box-shadow: 10px 25px 28px rgba(0, 0, 0.3);
 
 
@@ -833,6 +849,14 @@ transition: transform .2s ease;
 	margin-bottom: 10px;
 	color: black;
 }
+
+}
+@media(max-width: 874px)
+{
+	.slide
+	{
+		display: none;
+	}
 
 }
 .contact
@@ -937,6 +961,16 @@ transition: transform .2s ease;
 {
 	width: auto;
 	transform: translate(100%,-133%);
+	overflow: hidden;
+}
+@media(max-width:870px )
+{
+	.col
+	{
+		width: auto;
+		overflow: hidden;
+		transform: translate(100%,-123%)
+	}
 }
 
 .contact form .feild
@@ -1095,12 +1129,12 @@ footer span a
 	background: black;
 }
 
-/*.desktop{
+body {
 	max-width: 100%;
 	overflow-x: hidden;
-}*/
+}
 
-@media(max-width: 500px)
+@media(max-width: 515px)
 {
 	/*body{
 		width: 100%;
@@ -1154,7 +1188,10 @@ footer span a
 	
 	color: black;
 	opacity: 1.2;
-	background: yellow;
+	background: yellow ;
+	
+
+
 	border: 1px solid lightgrey;
 	border-radius: 7px;
 	
