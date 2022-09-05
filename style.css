@@ -1094,12 +1094,18 @@ footer span a
 {
 	background: black;
 }
+
+.desktop{
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
 @media(max-width: 500px)
 {
-	body{
+	/*body{
 		width: 100%;
 		height: 100%;
-	}
+	}*/
 
 	/*.home
 	{
