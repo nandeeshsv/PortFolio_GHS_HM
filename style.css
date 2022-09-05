@@ -82,6 +82,10 @@
 	text-align: center;
 
 }
+.text1not
+  {
+     display: none;
+  }
 
 
 .home .max-width
@@ -134,7 +138,8 @@
 {
 	.home
 	{
-		background: black;
+		width: 100%;
+		
 	}
 }
 @media(max-width: 650px)
@@ -144,8 +149,13 @@
 	font-size: 30px;
 	color: chocolate;
 	}
+	.navbar .menu li{
+	text-decoration: none;
+	display: list-item;
+
+    } 
 }
-@media(max-width: 578px)
+@media(max-width: 591px)
 {
 	.max-width .text-1{
 	padding: 0 50px;
@@ -163,6 +173,8 @@
 	padding: 0 50px;
 	font-size: 20px;
 	}
+	
+	 
 
 }
 
@@ -173,6 +185,7 @@
 	}
 	
 }
+
 
 .about
 {
@@ -519,6 +532,7 @@
 	font-weight: 600;
 
 }
+
 
 .card1{
 	
@@ -995,6 +1009,7 @@ footer span a
 	font-weight: 500;
 	font-family: Ubuntu,sans-serif;
 }
+
 .gallery{
 	background: white;
 }
@@ -1029,12 +1044,12 @@ footer span a
 
 	text-align: center;
 	cursor: pointer;
-	transition: color 0.3s ease;
+	background-size: 700px;
+	background-size: cover;
+	background: black;
+
 }
-.gallery .card:hover
-{
-	background: url(images/db.jpg);
-}
+
 
 
 .gallery .dpd
@@ -1069,7 +1084,7 @@ footer span a
  .view .max-widthV .dpd
 {
 	object-fit: cover;
-}
+}w
 .yoga
 {
 	background: black;
@@ -1079,7 +1094,64 @@ footer span a
 {
 	background: black;
 }
+@media(max-width: 500px)
+{
+	.home
+	{
+		display: none;
 
+	}
+	.about
+	{
+		display: none;
+	}
+	.service
+	{
+		display: none;
+	}
+	.skills
+	{
+		display: none;
+	}
+	.teams
+	{
+		display: none;
+	}
+	.slide
+	{
+		display: none;
+	}
+	.gallery
+	{
+		display: none;
+	}
+	.contact
+	{
+		display: none;
+	}
+	.navbar
+	{
+		display: none;
+	}
+	.text1not
+{
+	
+	display: inline-block;
+	font-size: 20px;
+	margin-top: 0px;
+	
+	
+	color: black;
+	opacity: 1.2;
+	background: yellow;
+	border: 1px solid lightgrey;
+	border-radius: 7px;
+	
+	text-align: center;
+
+}
+	
+}
 
 
 
