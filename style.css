@@ -1134,72 +1134,7 @@ body {
 	overflow-x: hidden;
 }
 
-@media(max-width: 515px)
-{
-	/*body{
-		width: 100%;
-		height: 100%;
-	}*/
 
-	.home
-	{
-		display: none;
-
-	}
-	.about
-	{
-		display: none;
-	}
-	.service
-	{
-		display: none;
-	}
-	.skills
-	{
-		display: none;
-	}
-	.teams
-	{
-		display: none;
-	}
-	.slide
-	{
-		display: none;
-	}
-	.gallery
-	{
-		display: none;
-	}
-	.contact
-	{
-		display: none;
-	}
-	.navbar
-	{
-		display: none;
-	}
-	.text1not
-{
-	
-	display: inline-block;
-	font-size: 20px;
-	margin-top: 0px;
-	
-	
-	color: red;
-	opacity: 1;
-	background: yellow ;
-	
-
-
-	border: 1px solid lightgrey;
-	border-radius: 7px;
-	
-	text-align: center;
-
-}
-	
-}
 
 
 
