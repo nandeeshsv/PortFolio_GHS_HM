@@ -4,7 +4,7 @@ GHS School Headmaster Portfolio
 This portfolio showcases the work and achievements of the Headmaster of GHS School. It is designed using HTML and CSS to provide a visually appealing and informative representation of the Headmaster's professional background, accomplishments, and contributions to the school.
 
 **Contents**
-Introduction
+Introduction<br>
 Features
 Installation
 Usage
