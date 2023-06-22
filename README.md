@@ -18,12 +18,12 @@ The portfolio is built using HTML and styled with CSS to create an aesthetically
 
 # Features<br>
 <br>
-Home Page: Provides an overview of the Headmaster's role, vision, and mission at GHS School.<br>
-About: Presents a detailed biography of the Headmaster, including educational background, professional experience, and leadership philosophy.<br>
-Achievements: Highlights the notable accomplishments and contributions made by the Headmaster during their tenure at GHS School.<br>
-Gallery: Showcases a collection of photos capturing memorable moments and events at the school under the Headmaster's guidance.<br>
-Testimonials: Displays testimonials from staff, students, and parents, expressing their appreciation for the Headmaster's leadership and impact on the school community.<br>
-Contact: Offers contact information and a contact form for anyone interested in reaching out to the Headmaster.
+**Home Page**: Provides an overview of the Headmaster's role, vision, and mission at GHS School.<br>
+**About:** Presents a detailed biography of the Headmaster, including educational background, professional experience, and leadership philosophy.<br>
+**Achievements:** Highlights the notable accomplishments and contributions made by the Headmaster during their tenure at GHS School.<br>
+**Gallery:** Showcases a collection of photos capturing memorable moments and events at the school under the Headmaster's guidance.<br>
+**Testimonials:** Displays testimonials from staff, students, and parents, expressing their appreciation for the Headmaster's leadership and impact on the school community.<br>
+**Contact:** Offers contact information and a contact form for anyone interested in reaching out to the Headmaster.
 
 # Installation<br>
 <br>
